@@ -15,3 +15,27 @@
 .CartItem-info {
     flex-grow: 1;
 }
+
+.info-title h2 {
+    margin: 0;
+    font-size. 18px;
+    color: #007185;
+}
+
+.info-stock {
+    margin-top: 4px;
+    color: #007600;
+}
+
+.item-actions {
+    margin-top: 4px;
+}
+
+.item-delete {
+    color: #007185;
+}
+
+.CartItem-price {
+    font-size: 18px;
+    font-weight: 700;
+}
