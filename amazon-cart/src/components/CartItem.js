@@ -1,29 +1,29 @@
 import React from 'react'
 import './CartItem.css'
 
-function CartItem() {
+function CartItem({ item }) {
     return ( <
         div className = "CartItem" >
         <
         div className = "CartItem-image" >
         <
-        img src = "https://www.bhphotovideo.com/images/images2500x2500/apple_mthx2ll_a_ipad_pro_256gb_wi_fi_1568360.jpg" > < /img> < /
+        img src = { process.env.PUBLIC_URL + '/items/' + item.image }
+        alt = "" > < /img> < /
         div >
         <
         div className = "CartItem-info" >
         <
         div className = "info-title" >
         <
-        h2 > Apple iPad pro < /h2> < /
+        h2 > { item.title } < /h2> < /
         div > <
-        div className = "info-stock" >
-        In Stock <
+        div className = "info-stock" > { item.stock } <
         /div>  <
         div className = "item-actions" >
         <
         div className = "item-quantity" >
         <
-        select >
+        select value = { item.quantity } >
         <
         option value = "1" > Qty: 1 < /option> <
         option value = "2" > Qty: 2 < /option> <
@@ -39,8 +39,7 @@ function CartItem() {
         div > < /
         div >
         <
-        div className = "CartItem-price" >
-        $769 .00 <
+        div className = "CartItem-price" > $ { item.price } <
         /div> < /
         div >
     )
