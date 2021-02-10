@@ -21,7 +21,7 @@ function App() {
             </p>
             <button onClick={()=> setCount(count+1)}>Click me</button>
        <CartItems items= {cartItems}/>
-          <CartTotal/>
+          <CartTotal items={cartItems}/>
         </div>
         <
         /div >
