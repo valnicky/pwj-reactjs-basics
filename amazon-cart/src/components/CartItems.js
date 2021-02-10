@@ -1,7 +1,7 @@
 import React from 'react'
 import './CartItems.css';
 
-function cartItems() {
+function cartItems({ items }) {
     return ( < div className = "CartItems" >
         <
         h1 > Shopping Cart < /h1><hr> < /
