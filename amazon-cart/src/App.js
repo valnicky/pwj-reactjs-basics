@@ -11,9 +11,8 @@ function App() {
     const [cartItems, setCartItems] = useState(data);
     
     //const [count, setCount] = useState(0);
-    return ( < div className = "App" >
-        <
-        Header title = "Amazon Cart" / >
+    return ( <div className = "App" >
+        <Header title = "Amazon Cart" />
         
         <div className="App-main" >
           
@@ -21,8 +20,7 @@ function App() {
        <CartItems items= {cartItems} setCartItems={setCartItems}/>
           <CartTotal items={cartItems}/>
         </div>
-        <
-        /div >
+        </div>
     );
 
 }

@@ -15,23 +15,17 @@ function CartTotal({ items }) {
         return total;
     }
 
-    return ( <
-        div className = "CartTotal" >
-        <
-        h3 >
+    return ( < div className = "CartTotal" >
+        < h3 >
         Subtotal({ items.length }
             items):
-        <
-        span className = "CartTotal-price" > NumberFormat value = { getTotalPrice() }
+        <span className = "CartTotal-price" > NumberFormat value = { getTotalPrice() }
         displayType = { 'text' }
         thousandSeparator = { true }
-        prefix = { '$' } decimalScale={2} < /span> < /
-        h3 >
-        <
-        button type = "" >
-        Proceed to checkout <
-        /button> < /
-        div >
+        prefix = { '$' }
+        decimalScale = { 2 } </span> </h3 >
+        <button type = "" >
+        Proceed to checkout </button> </div >
     )
 }
 
