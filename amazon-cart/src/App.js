@@ -10,17 +10,15 @@ function App() {
 
     const [cartItems, setCartItems] = useState(data);
     
-    const [count, setCount] = useState(0);
+    //const [count, setCount] = useState(0);
     return ( < div className = "App" >
         <
         Header title = "Amazon Cart" / >
         
         <div className="App-main" >
-            <p>
-                You clicked {count} times
-            </p>
-            <button onClick={()=> setCount(count+1)}>Click me</button>
-       <CartItems items= {cartItems}/>
+          
+         
+       <CartItems items= {cartItems} setCartItems={setCartItems}/>
           <CartTotal items={cartItems}/>
         </div>
         <
