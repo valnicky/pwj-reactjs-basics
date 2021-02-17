@@ -1,4 +1,11 @@
-# ReactJS 101 Todos
+# ReactJS
+
+In the project directory, you can run:
+
+### `yarn start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## TODO(Together): Create your first ReactJS App
 
@@ -32,11 +39,13 @@ Use the tutorial [HERE](https://reactjs.org/docs/add-react-to-a-website.html)
 ## TODO: Convert Cart Items and Cart Total into components
 
 #### HINTS:
+
 - Name the components `CartItems` and `CartTotal`
 
 ## TODO: Create individual CartItem component structure
 
 #### HTML Structure:
+
 ```
 .CartItem
     div.CartItem-image
@@ -58,15 +67,17 @@ Use the tutorial [HERE](https://reactjs.org/docs/add-react-to-a-website.html)
 
 #### TODO: Pass the data into CartItems components as props
 
-## TODO: Loop through cart items list and display them using JSX 
+## TODO: Loop through cart items list and display them using JSX
 
 #### HINTS:
+
 - Use the `.map` function
 - Output the original Cart Item with fake data
 
-## TODO: Convert CartItem component to now use props and pass them in 
+## TODO: Convert CartItem component to now use props and pass them in
 
 #### HINTS:
+
 - Use `item` as a prop
 - Replace fake data with data from cart items list
 - For the image src use `process.env.PUBLIC_URL`
@@ -76,48 +87,28 @@ Use the tutorial [HERE](https://reactjs.org/docs/add-react-to-a-website.html)
 ## TODO: Calculate total price from cart items list
 
 #### HINTS:
+
 - Create a `getTotalPrice()` function
 - Output it using JSX
 
 ## TODO(Homework): Correctly calculate cart total
 
-The way I do it is wrong, and I want you to fix it ;) 
+The way I do it is wrong, and I want you to fix it ;)
 
 ## TODO(Together): Install your first external React Module to format the total price number
 
 ## TODO(Together): Add the ability to change item quantity in the cart
 
-## TODO: Add the ability to delete an item in the cart 
+## TODO: Add the ability to delete an item in the cart
 
 #### HINTS:
+
 - Create a `deleteItem()` function
 - Pass the function from `CartItems` to `CartItem` component
 - Pass the `index` of the item to know which item to delete
 - Use the `filter()` function in es6 to filter out item based on index
-- Update the items using `setCartItems()` function 
+- Update the items using `setCartItems()` function
 
 ## TODO(Together): Cleanup
 
 ## TODO(Together): Publish the APP LIVE!!!!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
