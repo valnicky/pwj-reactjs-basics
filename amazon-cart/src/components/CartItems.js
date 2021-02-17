@@ -23,7 +23,8 @@ function CartItems({ items, setCartItems }) {
         setCartItems(newItems);
     }
     
-    return ( <div className = "CartItems">
+    return ( 
+    <div className = "CartItems">
         <h1> Shopping Cart </h1><hr/>  
         <div className = "CartItems-items" > {
             items.map((item, index) =>
@@ -32,9 +33,9 @@ function CartItems({ items, setCartItems }) {
                 key = { index }
                 changeItemQuantity={changeItemQuantity}
                 deleteItem={deleteItem}
-                / > 
+                /> 
     ) } </div >
-            </div >
+    </div>
         )
 }
 
