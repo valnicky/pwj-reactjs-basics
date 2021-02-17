@@ -14,10 +14,21 @@ function CartTotal({ items }) {
         });
         return total;
     }
+    
+    
+    const getTotalQuantity=()=>{
+        let quant = 0;
+          items.forEach((item)=>{
+        quant += parseInt(item.quantity);
+       
+    });
+     return quant;
+    }
+  
 
     return ( < div className = "CartTotal" >
         < h3 >
-        Subtotal({ items.length } items): 
+        Subtotal({ getTotalQuantity() } items): 
          <span className = "CartTotal-price" >
              < NumberFormat value = { getTotalPrice() }
                     displayType = { 'text' }
