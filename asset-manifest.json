@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pwj-reactjs-basics/static/css/main.296e3233.chunk.css",
+    "main.js": "/pwj-reactjs-basics/static/js/main.fe744dbe.chunk.js",
+    "main.js.map": "/pwj-reactjs-basics/static/js/main.fe744dbe.chunk.js.map",
+    "runtime-main.js": "/pwj-reactjs-basics/static/js/runtime-main.73ef04fa.js",
+    "runtime-main.js.map": "/pwj-reactjs-basics/static/js/runtime-main.73ef04fa.js.map",
+    "static/js/2.fa56c64e.chunk.js": "/pwj-reactjs-basics/static/js/2.fa56c64e.chunk.js",
+    "static/js/2.fa56c64e.chunk.js.map": "/pwj-reactjs-basics/static/js/2.fa56c64e.chunk.js.map",
+    "static/js/3.542511c6.chunk.js": "/pwj-reactjs-basics/static/js/3.542511c6.chunk.js",
+    "static/js/3.542511c6.chunk.js.map": "/pwj-reactjs-basics/static/js/3.542511c6.chunk.js.map",
+    "index.html": "/pwj-reactjs-basics/index.html",
+    "static/css/main.296e3233.chunk.css.map": "/pwj-reactjs-basics/static/css/main.296e3233.chunk.css.map",
+    "static/js/2.fa56c64e.chunk.js.LICENSE.txt": "/pwj-reactjs-basics/static/js/2.fa56c64e.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/pwj-reactjs-basics/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73ef04fa.js",
+    "static/js/2.fa56c64e.chunk.js",
+    "static/css/main.296e3233.chunk.css",
+    "static/js/main.fe744dbe.chunk.js"
+  ]
+}
