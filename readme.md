@@ -1,5 +1,7 @@
 # ReactJS
 
+This is a React project Amazon Cart clone
+
 In the project directory, you can run:
 
 ### `npm start`
